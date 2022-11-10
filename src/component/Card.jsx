@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom"
 
 
 const Card = ({ photo, name, id }) => {
-
     const navgit = useNavigate();
 
     const navegt = (e) => {
@@ -15,7 +14,6 @@ const Card = ({ photo, name, id }) => {
     return (
 
         <div style={style.cardStyle}>
-
             <img style={style.cardImg} src={photo} alt="pokomon" />
             <h5 style={style.cardName} id={id} onClick={(e) => (navegt(e))}>{name}</h5>
 

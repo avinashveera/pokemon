@@ -9,8 +9,6 @@ export const style = {
 
     },
 
-
-
     pokemanData: {
         display: "flex",
         flexWrap: "wrap",
