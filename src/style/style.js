@@ -15,7 +15,7 @@ export const style = {
         display: "flex",
         flexWrap: "wrap",
         alignItems: "center",
-        justifyContent: "space-between"
+        justifyContent: "center"
     }
     ,
     //homepage css ends
