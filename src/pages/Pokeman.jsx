@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom"
 import { style } from '../style/style';
 const Pokeman = () => {
 
-
   const { id } = useParams();
   const Data = useSelector(state => state.data)
 
@@ -17,8 +16,8 @@ const Pokeman = () => {
   const data = Data[findDataInd()]
   return (
     <div style={style.pokomanDiv}>
-      <img src={data.images.small} style={{ height: "500px", width: "500px" }} alt="" />
-      <div>
+      <img src={data.images.small} style={style.pokomanImage} alt="" />
+      <div style={style.pokomanText}>
         <h5> artist : {data.artist}</h5>
         <h5> name : {data.name}</h5>
         <h5> hp : {data.hp}</h5>

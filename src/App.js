@@ -6,7 +6,7 @@ import Pokeman from "./pages/Pokeman";
 import Header from "./pages/Header"
 function App() {
   return (
-    <div className="App">
+    <div style={{backgroundColor:"#303030",color:"white"}} className="App">
       <Header />
       <BrowserRouter>
         <Routes>
